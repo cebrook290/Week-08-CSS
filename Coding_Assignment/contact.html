@@ -4,31 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Charlee Ann</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
 </head>
 <body>
-    <h1>Request Information about Miss Charlee</h1>
+    
 
-    <div>
-        <a href="index.html">Home</a>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
         <a href="about.html">About Charlee</a>
         <a href="contact.html">Request more info</a>
     </div><br>
 
-    <form>
-        <h2>Ask us about Miss Charlee!</h2>
-        <input type="text" name="firstName" placeholder="Your First Name"><br>
-        <input type="text" name="email" placeholder="Your Email Address"><br>
-        <input type="text" name="question" placeholder="Your Question"><br>
-        <input type="submit" value="Submit">
+    <h1 class="header-1">Request Information about Miss Charlee</h1>
 
-    </form>
+    <div class="container">
+        <form>
+            <h2 class="header-2">Ask us about Miss Charlee!</h2>
 
-    <h3>Connect with Charlee's socials!</h3><br>
-    <img height="350px" src="Charlee1.jpg" alt="Charlee Ann"><br>
+            <label for="firstName">First Name</label>
+            <input id type="text" name="firstName" placeholder="Your name..."><br>
+
+            <label for="email">Your Email</label>
+            <input type="text" name="email" placeholder="Enter email address..."><br>
+
+            <label for="question">Your Question</label>
+            <textarea id="question-box" name="question" placeholder="Enter your question(s) here..."></textarea>
+            
+            
+            <input type="submit" value="Submit">
+
+        </form><br><br>
+    </div>
+
+    <img src="resources/Charlee1.jpg" alt="Charlee Ann" class="center"><br>
+
+    <h3 class="header-3">Connect with Charlee's socials!</h3><br>
+    
     <br><br>
-    <table>
+    <table id="box-model">
         <tr>
             <th>Site</th>
             <th>Link</th>
